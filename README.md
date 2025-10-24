@@ -1,16 +1,37 @@
-# React + Vite
+## 🌦️ Weather Explorer — React + Tailwind CSS Project
+A responsive weather application built with React.js, Tailwind CSS, and the OpenWeatherMap API.
+Users can search for any city to view current weather data, temperature, humidity, and wind speed — all in a clean, responsive interface.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Live Demo
+👉 https://cheery-unicorn-aa6430.netlify.app/
 
-Currently, two official plugins are available:
+## 🧠 Features
+✅ Search weather by city name
+✅ Dynamic API integration (OpenWeatherMap)
+✅ Responsive design using Tailwind CSS
+✅ Component-based architecture (React + Hooks)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚙️ Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-Dennis-Munene.git
 
-## React Compiler
+2️⃣ Install dependencies npm install
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+3️⃣ Add your API key 
+Create a .env file in the root directory and add: VITE_WEATHER_API_KEY=your_openweather_api_key_here
 
-## Expanding the ESLint configuration
+4️⃣ Run the project npm run dev 
+Then open http://localhost:5173 in your browser.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+5️⃣ Build for production 
+npm run build
+
+## 🌍 Deployment
+The project is deployed on Netlify: 
+👉 [https://weather-explorer-dennis.netlify.app](https://cheery-unicorn-aa6430.netlify.app/)
+
+You can deploy your own version via: 
+Push your code to GitHub
+
+🧑‍💻 Developer
+Dennis Munene 📅 2025 — All rights reserved © Built with ❤️ using React + Tailwind CSS
